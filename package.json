@@ -1,0 +1,26 @@
+{
+  "name": "getsoft_fact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "jspdf": "^2.5.1",
+    "md5": "^2.3.0",
+    "mssql": "^8.1.0",
+    "vue": "^3.2.33",
+    "vue-json-excel": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
