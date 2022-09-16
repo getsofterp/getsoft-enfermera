@@ -10,10 +10,10 @@ app.use(express.json());
 //login
 const datos = {};
 
-router.get('/Medico', (request, response) => {
+router.get('/enfermera', (request, response) => {
 
         datos.title = 'Getsoft ERP';
-        response.render('medico', datos);
+        response.render('enfermera', datos);
 });
 
 module.exports = router;
